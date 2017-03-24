@@ -6,8 +6,6 @@ class BoxAssigner
   end
 
   def assign(users)
-    @users = users
-
     users.each.inject({}) do |assigned, user|
       assigned[user[:name]] = []
       @boxes.each do |box|
