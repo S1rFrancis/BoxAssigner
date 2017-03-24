@@ -1,5 +1,5 @@
 class BoxAssigner
-  attr_accessor :boxes, :users
+  attr_accessor :boxes
 
   def initialize(box_list)
     @boxes = box_list
